@@ -1,0 +1,13 @@
+import time
+print("Welcome to band name generator!\n")
+city_name = input("Please write the city you were born:\n")
+pet_name = input("\nPlease write the name of your pet:\n")
+print("Processing...")
+time.sleep(2)
+print(".............")
+time.sleep(2)
+print(".............")
+time.sleep(2)
+print("Done!")
+time.sleep(2)
+print("The name for your band could be: " + city_name + " " + pet_name)
