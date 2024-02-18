@@ -5,7 +5,7 @@ rps = ["Rock", "Paper", "Scissors"]
 choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
 
 if choice < 0 or choice >= 3:
-    print("Are you fucking around? SELECT A NUMBER FROM 0 TO 1 BITCH!")
+    print("SELECT A NUMBER FROM 0 TO 1!")
     exit()
 else:
     print(f"You choose {rps[choice]} \n")
