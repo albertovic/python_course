@@ -1,4 +1,5 @@
 import random
+from replit import clear
 from stages import stages
 from word_list import word_list
 
@@ -16,6 +17,8 @@ print(display)
 while not end_of_game:
     guess = input("\nGuess a letter: ")
     guess = guess.lower()
+
+    clear()
 
     if guess in display:
         print(f"You've already guessed {guess}...")
