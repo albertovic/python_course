@@ -1,6 +1,6 @@
 """
 
-- If the dealer ends with a total less than 17, they need to pick another card
+- If the dealer ends with a total less than 17 -, they need to pick another card
 - Infinite card deck.
 - No jokers.
 - The figures all count as 10.
